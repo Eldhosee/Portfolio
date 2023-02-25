@@ -1,0 +1,9 @@
+.container2{
+    position: relative;
+    left: 2%;
+}
+#skills{
+    color: #ef233c;
+    text-decoration: underline;
+    text-underline-position: under;
+}

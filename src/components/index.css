@@ -2,6 +2,9 @@
     display: flex;
     flex-direction: row;
     color: #ffffff;
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
     word-wrap: break-word;
 }
 h1{
@@ -16,7 +19,7 @@ h1{
     top: 20%;
     left: 2%;
     margin-right: 15%;
-    overflow: hidden;
+    /* overflow: hidden; */
     width:50%
 }
 #h2{
@@ -37,37 +40,60 @@ img{
   position: absolute;
   top: 0;
   left: 0;
-
+  
   z-index: 1;
 }
 svg{
   opacity: 80%;
   z-index: 0;
-  position: fixed;
-  width: 40%;
+  position: relative;
+  width: 500px;
 }
 @media (max-width:700px) {
   .container {
     display: flex;
     flex-direction: column-reverse;
+    overflow: hidden;
   }
   img{
-    margin-left: 100px;
+    
+    width: 450px;
+    
   }
   .left {
     width: 100%;
-    margin-left: 100px;
-    display: inline;
+    height: 500px;
     position: relative;
-    top: 500px;
-    justify-content: center;
-    align-items: center;
+    
+  }
+  .right{
+    
+      width: 100%;
+      height: 500px;
   }
   svg{
-    margin-left: 100px;
     position: absolute;
     width: 500px;
   }
+}
+@media (max-width:300px) {
+  img{
+    width: 300px;  
+  }
+  svg{
+    width: 300px;
+  }
+  .right {
+    height: 400px
+  };
+  .left {
+    position: relative;
+    top: 0;
+    left:0;
+    margin-right:0;
+    
+  }
+
 }
 
   /* @media (max-width:500px) {

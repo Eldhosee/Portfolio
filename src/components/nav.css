@@ -10,6 +10,7 @@
   #btn{
     display: none;
   }
+
   .right1 {
     justify-content: flex-end;
     align-items: center;
@@ -42,7 +43,7 @@
       width: 100%;
     }
   }
-  @media (max-width:400px) {
+  @media (max-width:440px) {
     #btn{
         position: absolute;
         z-index: 3;

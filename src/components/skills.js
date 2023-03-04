@@ -8,7 +8,7 @@ import icon5 from '../assets/icon5.png';
 import icon6 from '../assets/icon6.png';
 import icon7 from '../assets/icon7.png';
 import icon8 from '../assets/icon8.png';
-import { Stack, ImageList, ImageListItem, Box,Grid } from '@mui/material'
+import { ImageList, ImageListItem} from '@mui/material'
 import { useMediaQuery } from '@mui/material';
 export const Skills = () => {
   const images = [

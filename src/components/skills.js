@@ -8,6 +8,7 @@ import icon5 from '../assets/icon5.png';
 import icon6 from '../assets/icon6.png';
 import icon7 from '../assets/icon7.png';
 import icon8 from '../assets/icon8.png';
+import icon9 from '../assets/icon9.png';
 import { ImageList, ImageListItem} from '@mui/material'
 import { useMediaQuery } from '@mui/material';
 export const Skills = () => {
@@ -51,6 +52,11 @@ export const Skills = () => {
       id: 8,
       src: icon8,
       alt: 'icon8'
+    },
+    {
+      id: 9,
+      src: icon9,
+      alt: 'icon9'
     }
   ];
   

@@ -66,7 +66,7 @@ export const Skills = () => {
   return (
     <div className='container2'>
       <h1 id="skills">Skills</h1>
-      <ImageList sx={{width:"100%",height:500,overflow:"visible",m:"3%"}} cols={columns} gap={8} >
+      <ImageList sx={{width:"100%",height:600,overflow:"visible",m:"3%"}} cols={columns} gap={8} >
       {images.map((item) => (
         <ImageListItem key={item.id} id="img">
           <img
